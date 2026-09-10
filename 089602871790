@@ -556,7 +556,7 @@
         function startBooking(id) { closeModal(); selectedConsole = CONSOLES.find(c => c.id === id); bookingData = { name: '', duration: 1, startTime: '12:00' }; showSection('booking'); }
         function updateTotal() { const dur = parseInt(document.getElementById('form-duration').value); document.getElementById('display-total').innerText = formatIDR(selectedConsole.price * dur); }
         function confirmBooking() { const name = document.getElementById('form-name').value.trim(); if (!name) { alert('MOHON INPUT NAMA PEMESAN!'); return; } bookingData.name = name; bookingData.duration = parseInt(document.getElementById('form-duration').value); bookingData.startTime = document.getElementById('form-time').value; showSection('success'); }
-        function sendWA(id) { const total = selectedConsole.price * bookingData.duration; const msg = `Halo SKYZONE! Reservasi:%0A*ID:* ${id}%0A*Nama:* ${bookingData.name}%0A*Unit:* ${selectedConsole.name}%0A*Durasi:* ${bookingData.duration} Jam%0A*Mulai:* ${bookingData.startTime}%0A*Total:* ${formatIDR(total)}`; window.open(`https://wa.me/6289602871790?text=${msg}`, '_blank'); }
+        function sendWA(id) { const total = selectedConsole.price * bookingData.duration; const msg = `Halo SKYZONE! Reservasi:%0A*ID:* ${id}%0A*Nama:* ${bookingData.name}%0A*Unit:* ${selectedConsole.name}%0A*Durasi:* ${bookingData.duration} Jam%0A*Mulai:* ${bookingData.startTime}%0A*Total:* ${formatIDR(total)}`; window.open(`https://wa.me/6289678541684?text=${msg}`, '_blank'); }
 
         init();
     </script>
