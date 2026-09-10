@@ -152,7 +152,7 @@
                     <span class="text-2xl font-[900] italic uppercase tracking-tighter text-white">SKYZONE</span>
                     <span class="text-2xl font-[900] italic uppercase tracking-tighter text-yellow-400">GAMING STATION</span>
                 </div>
-                <p class="text-[10px] font-bold text-gray-600 uppercase tracking-[0.5em]">© 2024 SKYZONE MANAGEMENT. ALL RIGHTS RESERVED.</p>
+                <p class="text-[10px] font-bold text-gray-600 uppercase tracking-[0.5em]">© 2026 SKYZONE MANAGEMENT. ALL RIGHTS RESERVED.</p>
             </div>
         </footer>
     </div>
@@ -167,19 +167,21 @@
         const apiKey = ""; 
 
         const GAME_POSTERS = [
+            { title: "Black Myth Wukong", image: "https://m.media-amazon.com/images/M/MV5BNGVmZTVjZDMtMzkyZi00MTczLWE4OTUtY2Y1ODBlMGFlYTAxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
             { title: "EA SPORTS FC 26", image: "https://myhotposters.com/cdn/shop/files/EA_Sports_FC_26_90_large.webp?v=1760456651" },
             { title: "Resident Evil : Requiem", image: "https://m.media-amazon.com/images/M/MV5BYjgzZjVlMGYtYjlkMC00OTljLWFhYjItYTkzODVhNTUwZWE4XkEyXkFqcGc@._V1_.jpg" },
             { title: "Clair Obscur: Expedition 33", image: "https://cdn1.epicgames.com/spt-assets/330dace5ffc74156987f91d454ac544b/project-w-1vp1b.jpg" },
             { title: "REANIMAL", image: "https://m.media-amazon.com/images/M/MV5BMTVlY2U4ZjctMGViZi00MThkLWE4OWMtODM1MzE5NzlhZmQ2XkEyXkFqcGc@._V1_.jpg" },
             { title: "Tekken 8 Ultimate", image: "https://static.posters.cz/image/1300/230759.jpg" },
+            { title: "It Takes Two", image: "https://m.media-amazon.com/images/M/MV5BM2YyMDg4YzctMWFlYy00YWNhLWFkNDQtOTZlZjBkMDU5YTdmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
             { title: "SPLIT FICTION", image: "https://assets.games.gg/1748480715838_split_fiction_cover_ef82f4cc4c.png" }
         ];
 
         const CONSOLES = [
             { id: 'ps5', name: 'PLAYSTATION 5', category: 'VIP', price: 30000, features: ['Gaming 4K Ultra HD', 'Haptic DualSense', 'SSD Super Cepat'], image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Black_and_white_Playstation_5_base_edition_with_controller.png/250px-Black_and_white_Playstation_5_base_edition_with_controller.png', gameList: ["PES 2026", "EFOOTBALL 2026", "GOD OF WAR RAGNAROK", "ELDEN RING", "TEKKEN 8", "MORTAL KOMBAT 1", "GHOST OF TSUSHIMA", "SPIDERMAN 2"] },
             { id: 'ps4-vip', name: 'PLAYSTATION 4 PRO', category: 'VIP', price: 25000, features: ['Pro Performance', 'Katalog Game Luas', 'DualShock 4'], image: 'https://store.sony.co.nz/dw/image/v2/ABBC_PRD/on/demandware.static/-/Sites-sony-master-catalog/default/dw75cbc30e/images/PLAYSTATION4SLIMW/PLAYSTATION4SLIMW.png?sw=442&sh=442&sm=fit', gameList: ["PES 2026", "EFOOTBALL 2026", "WWE 2K25", "IT TAKES TWO", "CTR NITRO FUELED", "THE LAST OF US 2", "UNCHARTED 4"] },
-            { id: 'switch', name: 'NINTENDO SWITCH OLED', category: 'VIP', price: 25000, features: ['Layar OLED Vivid', 'Multiplayer Lokal', 'Party Games'], image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nintendo_Switch_Console.png/960px-Nintendo_Switch_Console.png?_=20170310042306', gameList: ["SUPER MARIO WONDER", "MARIO KART 8", "ZELDA: TOTK", "SUPER SMASH BROS", "OVERCOOKED! ALL YOU CAN EAT"] },
-            { id: 'ps4-reg', name: 'PLAYSTATION 4', category: 'REGULAR', price: 12000, features: ['Classic Gaming', 'High Definition', 'DualShock 4'], image: 'https://upload.wikimedia.org/wikipedia/commons/3/33/PlayStation_Four.png', gameList: ["PES 2026", "EFOOTBALL 2026", "CTR", "FIFA 24", "GTA V", "NARUTO SHIPPUDEN"] },
+            { id: 'switch', name: 'NINTENDO SWITCH OLED', category: 'VIP', price: 35000, features: ['Layar OLED Vivid', 'Multiplayer Lokal', 'Party Games'], image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nintendo_Switch_Console.png/960px-Nintendo_Switch_Console.png?_=20170310042306', gameList: ["SUPER MARIO WONDER", "MARIO KART 8", "ZELDA: TOTK", "SUPER SMASH BROS", "OVERCOOKED! ALL YOU CAN EAT"] },
+            { id: 'ps4-reg', name: 'PLAYSTATION 4', category: 'REGULAR', price: 10000, features: ['Classic Gaming', 'High Definition', 'DualShock 4'], image: 'https://upload.wikimedia.org/wikipedia/commons/3/33/PlayStation_Four.png', gameList: ["PES 2026", "EFOOTBALL 2026", "CTR", "FIFA 24", "GTA V", "NARUTO SHIPPUDEN"] },
             { id: 'ps3', name: 'PLAYSTATION 3', category: 'REGULAR', price: 7000, features: ['Vibe Nostalgia', 'Koleksi Klasik', 'Wireless Joy'], image: 'https://upload.wikimedia.org/wikipedia/commons/4/40/PS3-slim-console.png', gameList: ["PES 2013", "GTA SAN ANDREAS", "NARUTO STORM 3", "TEKKEN 6", "GOD OF WAR 3"] }
         ];
 
